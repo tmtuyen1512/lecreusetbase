@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY help "Click for Help">
+    ]>
+<resources>
+    <string name="click_for_help">&help;</string>
+    <string name="app_name">Reitan</string>
+    <string name="main_label">Manage your progress</string>
+    <string name="menu_consume">Consume</string>
+    <string name="menu_inventory">Inventory</string>
+    <string name="menu_note">Delivery Note</string>
+    <string name="menu_placement">Placement</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_sync">Sync</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="done">Done</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <string name="communication_header_title">Sync Data</string>
+    <string name="communication_communicating">Communicating</string>
+    <string name="communication_send_file">Sending files</string>
+    <string name="communication_connect">Connecting to server</string>
+    <string name="communication_send_log_file">Sending log files</string>
+    <string name="communication_receive_file">Receiving files</string>
+    <string name="communication_disconnect">Disconnecting</string>
+    <string name="communication_done">Communication Done</string>
+    <string name="general_noftpconfiguration">Please configure the FTP settings first</string>
+
+    <string name="tvCheckNetwork">Please check your Internet connection</string>
+    <string name="tv_issue">The following Issues needs to be taken care of</string>
+    <string name="tv_StartDownloading">Starting Download</string>
+    <string name="tv_DownloadedCompletely">Downloaded Completed</string>
+    <string name="tv_StartUploading">Started Uploading</string>
+    <string name="tv_UploadedCompletely">Upload Completed</string>
+    <string name="tv_StartConnecting">Connecting to Server</string>
+    <string name="tv_ConnectedSuccessful">Connected to Server \n IP : %1$s</string>
+    <string name="tv_OverwriteFile">Overwrite files</string>
+    <string name="tv_Receive_Log">Receive Log</string>
+
+    <string name="ftpconnection_testing">Testing Connection</string>
+    <string name="ftpconnection_testing_title_header">Connection</string>
+    <string name="general_error_title">Error</string>
+    <string name="general_success_title">Successful</string>
+    <string name="communication_saveftpsuccess">Saved successful</string>
+
+    <string name="item_no">Itemnumber</string>
+    <string name="scan">Scan</string>
+    <string name="sync">Sync</string>
+    <string name="quantity">Quantity</string>
+
+
+    <string name="location">Location</string>
+    <string name="item_number">Itemnumber</string>
+    <string name="list_of_record">List of records</string>
+
+    <string name="error_item_no_length">The Itemnumber must be 20 characters</string>
+
+    <string name="confirm">Confirm</string>
+
+
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="search">Search</string>
+    <string name="snackbar_delete">items has been deleted</string>
+    <string name="snackbar_undo"><u>Undo</u></string>
+
+
+    <string name="login_incorrectNotification">Incorrect Password</string>
+    <string name="login_title_header">Enter Delfi Password</string>
+
+    <string name="data_has_been_saved">The data has been saved successfully</string>
+    <string name="data_has_been_sent">The data has been sent successfully</string>
+    <string name="data_has_been_saved_sent">The data has been saved and sent successfully</string>
+    <string name="please_wait">Please wait</string>
+
+    <string name="tv_error_file_missing">&lt;font color="#eb564f"&gt;Error&lt;/font&gt; File not found</string>
+    <string name="tv_error_file_missing_detatil">&lt;font color="#1967ab"&gt;%s&lt;/font&gt; does not exist, please Receive data from the server</string>
+    <string name="total_arrive">%d</string>
+
+    <string name="main_setting_change_language">Languages</string>
+    <string name="main_setting_communication">Communication</string>
+    <string name="main_setting_change_language_msg">Language has been changed</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="info">Information</string>
+    <string name="error">Error</string>
+    <string name="successful">Successful</string>
+    <string name="save">Save</string>
+
+    <string name="settings_header">FTP Settings</string>
+    <string name="settings_lable_setting1">FTP Settings</string>
+    <string name="settings_lable_setting2">On file transfer</string>
+    <string name="settings_lable_rootPath">Root path</string>
+    <string name="settings_radio_overwrite">Overwrite</string>
+    <string name="settings_radio_append">Append</string>
+    <string name="settings_checkbox">Delete FTP import files</string>
+    <string name="settings_test">Test</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_hint_server_ip">Server IP</string>
+    <string name="settings_hint_server_port">Server Port</string>
+    <string name="settings_hint_username">Username</string>
+    <string name="settings_hint_pass">Password</string>
+    <string name="settings_testing_dialog">Testing FTP connection</string>
+    <string name="settings_testing_dialog_host">Host</string>
+    <string name="settings_testing_dialog_port">Port</string>
+    <string name="settings_testing_dialog_wait">Please wait...</string>
+    <string name="settings_testing_dialog_error">Error</string>
+    <string name="settings_testing_dialog_error_detail">It was not possible to connect to the server</string>
+    <string name="settings_testing_dialog_success">Successful</string>
+    <string name="settings_testing_dialog_success_detail">Connected to the server</string>
+    <string name="settings_saveftp_success">Saved successfully</string>
+    <string name="settings_saveftp_error">Save error</string>
+    <string name="settings_ip_empty">Enter IP</string>
+    <string name="settings_port_empty">Enter Port</string>
+    <string name="settings_username_empty">Enter Username</string>
+    <string name="settings_password_empty">Enter password</string>
+    <string name="enter">Enter</string>
+    <string name="confirm_exit_inventory">Would you like to exit the inventory?</string>
+    <string name="main_notification_back_press">Please press Back again to exit</string>
+
+    <string name="inventory">Inventory</string>
+
+    <string name="menu">Menu</string>
+
+    <string name="confirm_exit_receive">Do you want to finish?</string>
+
+    <string name="communication_no_config">No web service found, Please configure</string>
+    <string name="main_setting_web_service">Web Service</string>
+
+    <string name="view_list">View list</string>
+    <string name="error_order_no_length">The Ordernumber must be less than 20 characters</string>
+    <string name="error_quantity_length">The Quantity must be less than 10 characters</string>
+    <string name="confirm_delete_single">Do you want to delete the selected line? %s</string>
+    <string name="confirm_delete_multi">Do you want to delete the selected lines? %s</string>
+    <string name="customer_no">Customernumber</string>
+    <string name="error_customer_no">Customernumber \'%s\' was not found!</string>
+    <string name="customer_name">Customername</string>
+    <string name="item_description">Item Description</string>
+    <string name="error_item_no">Could not validate the itemnumber\nApplication will continue</string>
+    <string name="unknown">Unknown</string>
+    <string name="delivery_note_no">Delivery Note No</string>
+    <string name="error_location">Location \'%s\' was not found!</string>
+    <string name="error_quantity_equal_0">The quantity must be greater than 0</string>
+    <string name="success">Success</string>
+
+    <string name="menu_need_help">Need Help?</string>
+    <string name="header_need_help">Need Help</string>
+    <string name="subtitle_need_help_page">Contact us via the info below</string>
+    <string name="title_need_help_page">Do you need any help, or having problems with the application?</string>
+    <string name="opening_hours">Opening hours:</string>
+    <string name="week_day">(Monday - Thursday)</string>
+    <string name="weekend">(Friday)</string>
+    <string name="website">Website:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="back">Back</string>
+    <string name="how_to_access_administrator_mode">How to access administrator mode?</string>
+    <string name="do_not_show_on_start_up_dialog">Do not show again</string>
+    <string name="skip">Skip</string>
+    <string name="msg_soti_admin_access_guide_step_1">Press from the bottom half of the screen, from within 15% of the left side of the device</string>
+    <string name="msg_soti_admin_access_guide_step_2">Gesture up to the top centre of the screen, without letting go of the touch (try to remain within the 15% margin from the top)</string>
+    <string name="msg_soti_admin_access_guide_step_3">Without letting go of contact, gesture down to the bottom half of the right edge of the screen (try to remain within 15% margin from the right side of the device)</string>
+    <string name="msg_soti_admin_access_guide_step_4">Administrator prompt is shown</string>
+
+</resources>

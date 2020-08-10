@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY help "Klik for hjælp">
+    ]>
+<resources>
+    <string name="click_for_help">&help;</string>
+    <string name="app_name">Reitan</string>
+
+    <string name="main_label">Hoved Menu</string>
+    <string name="menu_settings">Opsætning</string>
+    <string name="menu_sync">Synkroniser</string>
+
+    <string name="cancel">Annullere</string>
+    <string name="retry">Prøv igen</string>
+    <string name="done">Udført</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <string name="communication_header_title">Synkroniser Data</string>
+    <string name="communication_communicating">Kommunikerer</string>
+    <string name="communication_send_file">Sender filer</string>
+    <string name="communication_connect">Forbinder til server</string>
+    <string name="communication_send_log_file">Sender logfiler</string>
+    <string name="communication_receive_file">Modtager filer</string>
+    <string name="communication_disconnect">Afbrydt</string>
+    <string name="communication_done">Kommunikation udført</string>
+    <string name="general_noftpconfiguration">Konfigurer venligst ftp indstillinger først!</string>
+
+    <string name="tvCheckNetwork">Tjek venligst internet forbindelsen</string>
+    <string name="tv_issue">En eller flere handlinger er påkrævet</string>
+    <string name="tv_StartDownloading">Start downloads total</string>
+    <string name="tv_DownloadedCompletely">Downloads fuldført total</string>
+    <string name="tv_StartUploading">Start uploads total</string>
+    <string name="tv_UploadedCompletely">Uploads fludført total</string>
+    <string name="tv_StartConnecting">Start forbindelse til Server</string>
+    <string name="tv_ConnectedSuccessful">Forbyndet til Server [...]</string>
+    <string name="tv_OverwriteFile">Overskriv filer</string>
+    <string name="tv_Receive_Log">Modtag Log</string>
+
+    <string name="ftpconnection_testing">Test forbindelse</string>
+    <string name="ftpconnection_testing_title_header">Forbindelse</string>
+    <string name="general_error_title">Fejl</string>
+    <string name="general_success_title">Succesfuldt</string>
+    <string name="communication_saveftpsuccess">Gemt</string>
+
+    <string name="scan">Skan</string>
+    <string name="sync">Synkroniser</string>
+
+    <string name="error_item_no_length">Initialer må ikke være længere end 4 karakterer</string>
+    <string name="confirm">Godkend</string>
+
+    <string name="location">Placering</string>
+
+    <string name="search">Søg</string>
+    <string name="snackbar_delete">Registrering er slettet</string>
+    <string name="snackbar_undo"><u>Fortryd </u></string>
+
+    <string name="login_title_header">Indtast Delfi adgangskode</string>
+    <string name="login_incorrectNotification">Adgangskoden er forkert.</string>
+
+    <string name="data_has_been_saved">Data er gemt med succes!</string>
+    <string name="data_has_been_sent">Data er sendt med succes!</string>
+    <string name="data_has_been_saved_sent">Data er gemt og sendt med succes!</string>
+    <string name="please_wait">Vent venligst</string>
+
+    <string name="tv_error_file_missing">font color="#eb564f"&gt;Fejl!&lt;/font&gt; Fil ikke fundet</string>
+    <string name="tv_error_file_missing_detatil">&lt;font color="#1967ab"&gt;%s&lt;/font&gt; findes ikke, Synkroniser venligst med serveren</string>
+    <string name="total_arrive">%d</string>
+
+    <string name="main_setting_change_language">Sprog</string>
+    <string name="main_setting_communication">Forbindelse</string>
+    <string name="main_setting_change_language_msg">Sproget er blevet ændret</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="ok">OK</string>
+    <string name="info">Information</string>
+    <string name="error">Fejl</string>
+    <string name="successful">Succesfuldt</string>
+    <string name="save">Gem</string>
+
+    <string name="settings_header">Forbindelse</string>
+    <string name="settings_lable_setting1">FTP Indstillinger</string>
+    <string name="settings_lable_setting2">Ved filoverførsel</string>
+    <string name="settings_lable_rootPath">Root sti</string>
+    <string name="settings_radio_overwrite">Overskriv</string>
+    <string name="settings_radio_append">Tilføj</string>
+    <string name="settings_checkbox">Slet FTP-importfiler</string>
+    <string name="settings_test">Test</string>
+    <string name="settings_save">Gem</string>
+    <string name="settings_hint_server_ip">Server IP</string>
+    <string name="settings_hint_server_port">Server Port</string>
+    <string name="settings_hint_username">Brugernavn</string>
+    <string name="settings_hint_pass">Adgangskode</string>
+    <string name="settings_testing_dialog">Tester FTP forbindelse</string>
+    <string name="settings_testing_dialog_host">Host</string>
+    <string name="settings_testing_dialog_port">Port</string>
+    <string name="settings_testing_dialog_wait">Vent venligst...</string>
+    <string name="settings_testing_dialog_error">Fejl!</string>
+    <string name="settings_testing_dialog_error_detail">Det var ikke muligt at oprette forbindelse til serveren</string>
+    <string name="settings_testing_dialog_success">Succesfuldt!</string>
+    <string name="settings_testing_dialog_success_detail">Tilsluttet til serveren</string>
+    <string name="settings_saveftp_success">Gemt med succes</string>
+    <string name="settings_saveftp_error">Gemt med fejl</string>
+    <string name="settings_ip_empty">Indtast ip</string>
+    <string name="settings_port_empty">Indtast port</string>
+    <string name="settings_username_empty">Indtast brugernavn</string>
+    <string name="settings_password_empty">Indtast adgangskode</string>
+    <string name="enter">Indtast</string>
+    <string name="confirm_exit_inventory">Vil du afslutte optællingen?</string>
+    <string name="item_no">Varenummer</string>
+    <string name="quantity">Antal</string>
+    <string name="item_number">Vare nummer</string>
+    <string name="list_of_record">Liste af registreringer</string>
+    <string name="user_name">Brugernavn</string>
+    <string name="password">Adgangskode</string>
+    <string name="login">Login</string>
+    <string name="main_notification_back_press">Tryk tilbage igen for at afslutte</string>
+    <string name="inventory">Status</string>
+    <string name="menu">Menu</string>
+    <string name="confirm_exit_receive">Vil du afslutte varemodtagelsen?</string>
+    <string name="menu_consume">Forbrug</string>
+    <string name="communication_no_config">Der blev ikke fundet nogen konfigurations webtjeneste! Konfigurer venligst</string>
+    <string name="main_setting_web_service">Webtjeneste</string>
+    <string name="view_list">Se liste</string>
+    <string name="error_order_no_length">Ordre skal være mindre end 20 karakter. </string>
+    <string name="error_quantity_length">"Antal skal være mindre end 10 karakter. "</string>
+    <string name="confirm_delete_single">Ønsker du at slette den valgte linje? %s</string>
+    <string name="confirm_delete_multi">Ønsker du at slette valgte linjer? %s</string>
+    <string name="customer_name">Kundenavn</string>
+    <string name="item_description">Varebeskrivelse</string>
+    <string name="unknown">Ukendt</string>
+    <string name="error_location">Lokation \'%s\' kunne ikke findes!</string>
+    <string name="menu_inventory">Status</string>
+    <string name="menu_note">Følgeseddel</string>
+    <string name="menu_placement">Placering</string>
+    <string name="customer_no">Kundenummer</string>
+    <string name="error_customer_no">Kundenummer  \'%s\' blev ikke fundet!</string>
+    <string name="delivery_note_no">Følgeseddel nr</string>
+    <string name="error_quantity_equal_0">Antal skal være højere end 0</string>
+    <string name="error_item_no">Det var ikke muligt at validere vare nr. Programmet ville forsætte.</string>
+    <string name="success">Succes!</string>
+
+    <string name="menu_need_help">Behov for hjælp?</string>
+    <string name="header_need_help">Behov for hjælp</string>
+    <string name="subtitle_need_help_page">Kontakt os via nedenstående oplysninger</string>
+    <string name="title_need_help_page">Har du behov for hjælp, eller oplever du problemer med applikationen?</string>
+    <string name="opening_hours">Åbent:</string>
+    <string name="week_day">(Mandag - Torsdag)</string>
+    <string name="weekend">(Fredag)</string>
+    <string name="website">Web:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Telefon:</string>
+    <string name="back">Tilbage</string>
+    <string name="how_to_access_administrator_mode">How to access administrator mode?</string>
+    <string name="do_not_show_on_start_up_dialog">Do not show again</string>
+    <string name="skip">Skip</string>
+    <string name="msg_soti_admin_access_guide_step_1">Tryk og hold nede i nederste del af skærmen, indenfor en 15% margin af skærmens venstre side.</string>
+    <string name="msg_soti_admin_access_guide_step_2">Flyt og hold fingeren til toppen af skærmen, uden at slippe, hold gerne indenfor 15% margin af skærmens top.</string>
+    <string name="msg_soti_admin_access_guide_step_3">Uden at slippe hold og flyt fingeren til højre side af skærmen, også indenfor 15% margin af skærmen, slip nu fingeren.</string>
+    <string name="msg_soti_admin_access_guide_step_4">Adminstrator prompten vises, hvis ikke så prøv igen.</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="height_bar">48dp</dimen>
+    <dimen name="height_edittext">48dp</dimen>
+    <dimen name="height_button">48dp</dimen>
+    <dimen name="Menu_Button_Text_marginTop">15dp</dimen>
+    <dimen name="icon_bottom_size_24">24dp</dimen>
+    <dimen name="icon_bottom_size_19">19dp</dimen>
+    <dimen name="icon_bottom_width">90dp</dimen>
+    <dimen name="with_button">200dp</dimen>
+</resources>

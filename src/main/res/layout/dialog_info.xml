@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/drawable_dialog_radius_corner">
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/Header_Montserrat_Bold_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/info"
+            android:textColor="#232f3b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/Message_Montserrat_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonOk"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="2.7sp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Message show here"
+            android:textColor="@color/grey_blue"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            style="@style/Button_Common"
+            android:layout_width="@dimen/with_button"
+            android:layout_height="@dimen/height_edittext"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/drawable_button_common"
+            android:text="@string/ok"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

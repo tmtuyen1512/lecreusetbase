@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1967ab</color>
+    <color name="colorPrimaryDark">#1967ab</color>
+    <color name="colorAccent">#1967ab</color>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#1967ab</color>
+    <color name="dark_light">#f0f4f8</color>
+    <color name="dark_grey">#484d5e</color>
+    <color name="grey">#acacac</color>
+    <color name="light_grey">#f0f0f0</color>
+    <color name="black">#000000</color>
+    <color name="orange">#eb564f</color>
+    <color name="red">#dd1c1a</color>
+    <color name="green">#14890a</color>
+    <color name="disable">#8c91a3</color>
+
+    <!--Reitan-->
+    <color name="dark_indigo">#08243c</color>
+    <color name="greeny_blue">#4bbc88</color>
+    <color name="very_light_blue">#d9f7ff</color>
+    <color name="coral_pink">#fe5461</color>
+    <color name="duck_egg_blue">#e3ebfa</color>
+    <color name="pale_grey">#f6f7fd</color>
+    <color name="grey_blue">#62778c</color>
+    <color name="light_sky_blue">#cde8ff</color>
+    <color name="tealish">#20cbaf</color>
+    <color name="dark">#232f3b</color>
+</resources>
